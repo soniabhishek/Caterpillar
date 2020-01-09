@@ -1,5 +1,5 @@
 import scrapy
-from tutorial.crunchcom.items import CrunchComItem
+from competitors.crunchcom.items import CrunchComItem
 
 
 class CompetitorsSpider(scrapy.Spider):

@@ -8,7 +8,7 @@
 from scrapy import signals
 import random
 
-from tutorial.crunchcom.agents import AGENTS
+from competitors.crunchcom.agents import AGENTS
 
 
 class CrunchComSpiderMiddleware(object):
