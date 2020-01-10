@@ -29,6 +29,3 @@ class CompetitorsSpider(scrapy.Spider):
             yield response.follow(link, self.parse)
 
         return self.companies
-
-    def foo(self, response, main_url, foo):
-        print(self, response, main_url, foo)
